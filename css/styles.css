@@ -622,18 +622,19 @@ line-height: 1.17;
 letter-spacing: 0.04em;
 color: #8e8f99;
 margin-bottom: 4px;
-display: flex;
+display: block;
   flex-direction: column;
 }
 
 .input-wrapper {
     position: relative;
+    margin-bottom: 8px;
 }
 
 .input-wrapper .form-icon {
     position: absolute;
-    top: 45%;
-    left: 12px;
+    top: 50%;
+    left: 16px;
     transform: translateY(-50%);
     cursor: pointer;
 }
@@ -641,9 +642,11 @@ display: flex;
 .input-field {
     border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
+background-color: transparent;
+outline: transparent;
 width: 360px;
 height: 40px;
-padding: 8px 16px 8px 36px;
+padding: 8px 16px 8px 38px;
 margin-bottom: 8px;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
